@@ -50,9 +50,33 @@
       </section>
 
       <section class="card" id="javascript-section">
-        <h2>Javascript</h2>
+        <h2>JavaScript</h2>
         <ul>
-          <li>ummmm</li>
+          <li>A JavaScript file is .js</li>
+          <li>To link script.js file to the index.html file, we must insert this -> "&lt;script src="./assets/script.js"&gt;&lt;/script&gt;</li>
+          <ul>
+            <li>This is placed between &lt;footer&gt; and &lt;body&gt;</li>
+          </ul>
+          <li>To declare a variable, we use the "var" keyword (ex. var shape = "circle";)</li>
+          <li>For these to be visible in the console, we need to output the message to the web console by using the console.log method and adding an argument to it as well (ex. console.log(shapes);</li>
+          <li>To see what's in the console, inspect element</li>
+          <li>JavaScript has a control flow where the placement of things matters! It can, however, be interrupted using conditional statements and loops.</li>
+          <li>The if statement is an example of how to create a conditional statement (ex. if (condition) { //block of code to be executed if condition is truthy })</li>
+          <li>An array can be used to change the value of our variables in a more efficient way</li>
+            <ul>
+              <li>array: a group of related data</li>
+              <li>ex. var shapes = ["triangle", "square", "pentagon", "circle"];</li>
+              <li>The shapes listed are all strings unlike a variable like the number "54" (number) or the word "true" (Boolean value)</li>
+              <li>In an array, each item is assigned an index according to the order in which it is stored (starting with the number 0!)</li>
+              <li>To log "triangle," we would type console.log(shapes[0]); as it is the first variable in the array</li>
+           </ul>
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array</li>
+          <li>It is much like an equation....</li>
+          <li>ex. for(var x = 0; x &lt; shapes.length; x++) { console.log(shapes[x]); } </li>
+          <li>The types of JavaScript data types are "null, undefined, boolean, number, bigint, string, and symbol"</li>
+          <li>function: a set of instructions that tells the computer how to perform a certain task</li>
+          <li>ex. function listTopics() { for (var x = 0; x &lt; topics.length; x++) { console.log(topics[x]); } }</li>
+          <li>At the bottom of the .js file, in order for functions like listTopics() and selectTopic() to work, we must put them at the end of the file with a console.log above them as well</li>
         </ul>
       </section>
 
@@ -75,15 +99,12 @@
 <br>
         <h2>Git Diary</h2>
         <ul>
+            <li>I added this section just because the mistake I made will be a great learning lesson.</li>
             <li>I just used git commit -m "added code to HTML file" in my terminal because I'm trying to commit my stages and also the "-m" flag is used to associate a message with
           our commit lol.
         I blew up the terminal somehow--it gave me like a horrifying message but it's okay I fixed it with git restore or something like that. Ok so always add a message after
         -m. Got it.</li>
         </ul>
-
-        <p><b>Git Diary</b></p>
-        <p>I just used git commit -m "added code to HTML file" in my terminal because I'm trying to commit my stages and also the "-m" flag is used to associate a message with our commit lol.
-        I blew up the terminal somehow--it gave me like a horrifying message but it's okay I fixed it with git restore or something like that. Ok so always add a message after -m. Got it.</p>
       </section>
     </main>
 
