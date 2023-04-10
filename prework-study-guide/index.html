@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Pre-work Study Guide</title>
   </head>
   <body>
@@ -34,10 +35,18 @@
             <li>external CSS style sheet: keeping all CSS rules in a separate file</li>
             <li>When using an external CSS style sheet, we link the file using a &lt;link&gt; element placed in the HTML's &lt;head&gt;</li>
             <li>&lt;link rel="stylesheet" href="./assets/style.css" />&gt;</li>
+            <li>A period preceeding a word creates a new class selector (if it does not already exist)</li> and any HTML element assigned to the class .card
+            will gain these property assignments
+            <li>"margin" property is for space <b>outside</b> of an element</li>
+            <li>"padding" property is for space <b>inside</b> of an element</li>
+            <li>"display" property is paired with block (display: block) so that it assigns each image to start on a new line</li>
+            <li>&lt;link rel="stylesheet" href="./assets/style.css"&gt;</li>
+              <ul>
+                <li>rel specifies the relationship between the current document and the linked document resource
+                <li>href specifies the location (URL) of the external resource</li>
+                </li>
+              </ul>
           </ul>
-
-        <p><b>CSS Diary</b></p>
-        <p></p>
       </section>
 
       <section class="card" id="javascript-section">
@@ -56,20 +65,34 @@
           <li>git commit -m "<i>watever you want to say</i>": commits saved stages to our repository</li>
           <li>git pull origin main: pulls in the base branch (should see something like "Already up to date.")</li>
           <li>git push origin "<i>feature name</i>: pushes up all of our changes (the feature name was "feature/add-html" so I typed "git push origin feature/add-html")</li>
-          <li>After this, we can now go back to GitHub and create a new pull request and wait for a merge.</li>
-          <li>Go back to terminal and update local repository with the NEWLY merged-in feature with "git checkout main" "git pull origin main"</li>
+          <ul>
+            <li>After this, we can now go back to GitHub and create a new pull request and wait for a merge.</li>
+            <li>Go back to terminal and update local repository with the NEWLY merged-in feature with "git checkout main" "git pull origin main"</li>
+          </ul>
+            <li>touch: a command in git to create a new file (ex. touch style.css)</li>
+          <li>git checkout -b <i>feature/add-css</i>: checkout -> move from branch to branch; -b: add a new branch</li>
         </ul>
+<br>
+        <h2>Git Diary</h2>
+        <ul>
+            <li>I just used git commit -m "added code to HTML file" in my terminal because I'm trying to commit my stages and also the "-m" flag is used to associate a message with
+          our commit lol.
+        I blew up the terminal somehow--it gave me like a horrifying message but it's okay I fixed it with git restore or something like that. Ok so always add a message after
+        -m. Got it.</li>
+        </ul>
+<<<<<<< HEAD
 
         <p><b>Git Diary</b></p>
         <p>I just used git commit -m "added code to HTML file" in my terminal because I'm trying to commit my stages and also the "-m" flag is used to associate a message with our commit lol.
-        I blew up the terminal somehow--it gave me like a horrifying message but it's okay I fixed it with git restore or something like that. Ok so always add a message after -m. Got it.</p> 
+        I blew up the terminal somehow--it gave me like a horrifying message but it's okay I fixed it with git restore or something like that. Ok so always add a message after -m. Got it.</p>
       </section>
     </main>
 
     <br>
     <footer>
-      <hr>
+    <br>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
